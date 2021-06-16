@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <title>Document</title>
+   <title>Document</title>
+    
 </head>
 <body>
     <!-- As a link -->
@@ -18,17 +19,82 @@
   
   <!-- As a heading -->
   <nav class="navbar mt-4 sticky-top bg-light">
-    <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-        <a class="navbar-brand" href="#">Navbar</a>
+    <form class="d-flex  navbar-items">
+        <img src="images/logo-jumia.png" class="logo">
+        <input class=" search-bar form-control me-2" type="search" placeholder="&#128269; Search products, brands and categories" aria-label="Search">
+        <button class="btn btn-danger me-2" type="submit">Search</button>
+        <a class="navbar-brand " href="#">
+            <svg class=" m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+          </svg>Log In<svg class="down m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+          </svg></a>
+        <a class="navbar-brand " href="#"><svg class=" m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+          </svg>Help<svg class="down m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+          </svg></a>
+        <a class="navbar-brand" href="#"><svg  class=" m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>Cart<svg class="down  m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+          </svg></a>
     </form>
 
   </nav>
 
 
-  <div class="container">
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui harum enim vel cum dolore aliquam iure perferendis, laboriosam reprehenderit non sapiente aperiam aspernatur delectus esse a officiis rem recusandae consequuntur voluptates facilis ab quaerat, assumenda nulla? Aperiam corporis deserunt perspiciatis, aspernatur suscipit veniam qui alias voluptatum recusandae! Adipisci nesciunt at, nobis quo commodi voluptatibus excepturi est dicta. Iusto placeat delectus sunt magni eligendi asperiores voluptatibus dolore deleniti velit similique? Dicta accusantium excepturi perferendis dolor quis, voluptatibus, tenetur delectus, ut reprehenderit quam dolores! Tenetur, illo! Facere ipsam voluptatum ex, expedita eum corrupti maxime enim fugit nulla officiis earum, odio laudantium ea accusantium aperiam modi voluptas optio error fugiat culpa deserunt? Esse velit ex quibusdam excepturi fugiat distinctio corrupti impedit sunt. Consequuntur molestiae rem ab, enim eos vel, alias illum itaque molestias ad ex sit necessitatibus nobis porro est quisquam deserunt nulla temporibus voluptatum. Illum ipsa dolorum obcaecati eum harum odit perferendis vel neque quasi non modi, saepe, voluptatum est tenetur assumenda quod odio nihil nostrum officiis voluptate dolore! Ea iste blanditiis maxime corrupti aliquam qui aliquid fugit similique exercitationem! Sit atque quaerat quia, at distinctio beatae officiis? Magni corrupti nemo porro possimus architecto minus harum quidem quas fugit distinctio ducimus sapiente dicta, impedit nulla! Dolorem expedita blanditiis odio repellat eaque sapiente odit cum magni, veniam, pariatur incidunt officia vel laboriosam aperiam deleniti nesciunt aliquid iusto dolor sint. Eveniet perspiciatis molestiae a provident porro voluptate ullam, quam illum id, quasi dolores reiciendis. At facilis dolores officiis? Maiores totam facere quo officiis eos quasi delectus fuga repellendus quis iste veritatis, dolore eligendi pariatur odit mollitia at tempore aliquid nisi velit? Autem cum, dolores exercitationem tempore voluptatum obcaecati vitae voluptates debitis aut ipsum enim inventore sapiente quidem dicta commodi doloremque nobis quos. Sed modi aliquam nam nobis assumenda esse consequuntur consequatur sit cum, ab quidem officiis veniam, molestiae quas! Tempora dolor expedita natus ea doloribus reprehenderit eveniet, error, quaerat, laboriosam totam cupiditate quo! Voluptate recusandae molestias esse mollitia impedit perspiciatis dolorem quo! Repellendus tempora porro harum eligendi, libero nobis recusandae dolores dicta quidem corrupti hic modi deserunt sapiente quos amet distinctio quas non illum consequuntur. Nam sunt quo et delectus exercitationem eum impedit. Voluptate iste quibusdam ex laborum natus non sequi iure dolore ipsa numquam. Repellendus cupiditate labore recusandae ad ex ducimus ea deserunt voluptatem alias voluptas similique eaque cumque laudantium quibusdam nostrum expedita modi at, enim adipisci maiores! Quaerat ex accusantium laboriosam. Dignissimos illo molestias omnis vitae sint suscipit, iste, ipsa incidunt esse natus illum neque consectetur aut ullam saepe, expedita autem consequuntur a. Accusantium, libero fugiat cupiditate adipisci placeat ipsam quas quam dolore nam, soluta ab consequatur error eligendi est sapiente magnam voluptas quis praesentium. Aperiam, saepe. Explicabo doloremque delectus hic magni ipsum nobis sed atque asperiores harum maxime aspernatur nesciunt, numquam inventore necessitatibus consectetur, sint rem distinctio, molestiae dolore illo porro ipsam quidem? Explicabo sint, exercitationem expedita unde nam optio blanditiis nemo ullam dolorum amet veniam architecto autem eaque, minima, recusandae dolor. Quibusdam non asperiores officia dignissimos deleniti, reprehenderit cum neque a repellendus quae optio laborum quos, veritatis aliquam ratione praesentium? Quisquam fugiat aliquid repellendus esse consequuntur provident? Animi labore vero obcaecati sapiente consectetur! Nisi molestias odit numquam ut assumenda, dolores quia cupiditate! Molestiae dolores magnam distinctio totam, repudiandae blanditiis maxime voluptas nesciunt ipsa iure doloremque odit, esse reiciendis consequuntur! Accusamus numquam deserunt, natus, nesciunt dolore officia recusandae esse molestias maxime asperiores fuga! Porro iure culpa velit est modi, consequuntur molestiae tempore vel eius dicta obcaecati dignissimos veniam voluptas tempora illum rem quos veritatis iusto consequatur natus reiciendis id consectetur animi placeat? Fuga culpa ex a minus nihil voluptatem cumque, tempora cupiditate molestias, cum odio vitae. Ullam veniam consequatur quas error quis esse odit quisquam magnam possimus quasi facilis at laudantium rem fugiat corporis, impedit similique nobis ad id eveniet repellat totam. Nihil, autem. Debitis nihil cupiditate aliquid perferendis porro vero iste nam incidunt blanditiis. Ex iste quidem vero debitis quia non explicabo, atque libero totam exercitationem tenetur temporibus voluptate illo deserunt laborum quaerat adipisci aspernatur eveniet. Magnam ab error unde a enim veritatis tempora aliquid doloremque voluptate recusandae distinctio sint incidunt aspernatur, necessitatibus laboriosam perspiciatis delectus similique accusantium quaerat magni. Distinctio eum natus beatae tempore. Consectetur corporis praesentium minus ipsa asperiores nemo cum ut reiciendis numquam. Nesciunt sapiente eius nostrum facere, reprehenderit quas temporibus voluptatum, sint ab vero atque iste animi quos dolore tempora porro autem vitae neque? Sapiente accusamus ipsum aliquid labore eveniet delectus possimus illum molestias? Quis laudantium, quisquam nihil rem nisi aspernatur veritatis ullam praesentium accusamus sit repellendus. Nam, quam quisquam. Dolorum totam illum ea dolorem illo optio fugit unde dolores suscipit est officiis maiores odio officia facilis ipsum nemo, sint harum esse corporis in impedit. Nostrum non quas error itaque necessitatibus at, molestiae in quae animi deserunt molestias odit temporibus natus consectetur sit soluta, voluptates blanditiis repellat porro ex ducimus, est totam dolores! Blanditiis pariatur sint laboriosam, rem saepe at assumenda. Quos molestiae, distinctio aliquam nobis dolorem debitis saepe non commodi eligendi illo, sed dolorum, ex deleniti blanditiis enim id numquam in dignissimos mollitia beatae! Minus, asperiores harum suscipit repudiandae sequi maiores mollitia doloribus iusto hic ducimus consequuntur possimus a explicabo corrupti eum odit voluptatem eveniet neque et libero adipisci quia dignissimos totam deserunt! Reiciendis aliquam quisquam provident nulla maxime voluptatum sapiente, vel vero reprehenderit nisi cumque autem blanditiis, assumenda voluptatibus non deserunt? Quod, fugiat libero est earum exercitationem tempore illo, fugit veniam ut obcaecati cumque nostrum molestias quidem! Reprehenderit, quam! Consequatur nemo architecto labore repudiandae hic dignissimos, dolorem nulla voluptatum odit similique deleniti magni fuga nesciunt. Cum eos magnam adipisci, iste provident repellendus dolorum ratione numquam soluta possimus veniam architecto illum officiis illo nostrum error. Inventore necessitatibus quas asperiores nihil corporis facere, quaerat velit repellendus cupiditate tempore, voluptatem eveniet sapiente aliquid recusandae ex quidem? Saepe reiciendis sunt, soluta provident atque nemo tempora quod asperiores nesciunt error ullam dolor recusandae facilis omnis fugit! Ad vitae ipsam enim odio dolorem harum, cupiditate quia nostrum sint. Soluta et dolor voluptas architecto recusandae ab velit dicta, aspernatur quae deleniti.</p>
+<div class="container">
+    <div class="row-1">
+        <div class="col-2">
+            <ul>
+                <li><a href=""><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                  </svg>Search something</a></li>
+                  <li><a href=""><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                  </svg>Search something</a></li>
+                  <li><a href=""><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                  </svg>Search something</a></li>
+                  <li><a href=""><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                  </svg>Search something</a></li>
+                  <li><a href=""><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                  </svg>Search something</a></li>
+                  <li><a href=""><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                  </svg>Search something</a></li>
+                  <li><a href=""><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                  </svg>Search something</a></li>
+                  <li><a href=""><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                  </svg>Search something</a></li>
+                  <li><a href=""><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                  </svg>Search something</a></li>
+                  <li><a href=""><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                  </svg>Search something</a></li>
+                  <li><a href=""><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                  </svg>Search something</a></li>
+                  <li><a href=""><svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                  </svg>Search something</a></li>
+                
+            </ul>
+        </div>
+        <div class="col-7"></div>
+        <div class="col-2"></div>
+    </div>
+
+
+
+
 </div>
 
 
