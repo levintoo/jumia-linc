@@ -142,6 +142,7 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: tomato;
 }
 
 #main-detail{
@@ -153,6 +154,6 @@ body{
 #picture-detail img{
     width: 100%;
     height: 40%;
-
+    
 }
 
