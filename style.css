@@ -130,3 +130,29 @@ body{
 
 
 
+/* ///////phone page or productp1 */
+
+
+#main-one{
+    display: flex;
+    flex-direction: row;
+}
+
+#mini-contents, #large-contents{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-detail{
+    display: flex;
+    flex-direction: row;
+    background-color: violet;
+
+}
+#picture-detail img{
+    width: 100%;
+    height: 40%;
+
+}
+
