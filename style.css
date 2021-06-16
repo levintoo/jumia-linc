@@ -136,6 +136,7 @@ body{
 #main-one{
     display: flex;
     flex-direction: row;
+    background-color: yellowgreen;
 }
 
 #mini-contents, #large-contents{
@@ -148,12 +149,33 @@ body{
 #main-detail{
     display: flex;
     flex-direction: row;
-    background-color: violet;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 10px;
 
 }
 #picture-detail img{
     width: 100%;
     height: 40%;
+    cursor: zoom-in;
     
 }
+#picture-detail{
+    height: 100vh;
+    background-color: aquamarine;
+}
+.col-8 hr{
+    width: 90%;
+    margin: 10px;
+}
 
+
+#clickable-images{
+    display: flex;
+    flex-direction: row;
+    margin: 0 !important;
+}
+#clickable-images img{
+    width: 100%;
+    height: 50px;
+}
