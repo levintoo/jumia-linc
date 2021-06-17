@@ -199,3 +199,15 @@ body{
     margin: 10px;
     border-radius: 10px;
 }
+
+
+
+
+
+/* the calculations tab */
+#main-two{
+    display: block;
+}
+#main-one{
+    display: none;
+}
