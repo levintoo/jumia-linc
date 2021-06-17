@@ -136,33 +136,36 @@ body{
 #main-one{
     display: flex;
     flex-direction: row;
-    background-color: yellowgreen;
+    background-color: transparent;
 }
 
 #mini-contents, #large-contents{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: tomato;
+  
 }
+
 
 #main-detail{
     display: flex;
     flex-direction: row;
     background-color: rgb(255, 255, 255);
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
+    
 
 }
 #picture-detail img{
     width: 100%;
     height: 40%;
-    cursor: zoom-in;
+    border-radius: 10px;
     
 }
 #picture-detail{
     height: 100vh;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
 .col-8 hr{
     width: 90%;
@@ -174,8 +177,25 @@ body{
     display: flex;
     flex-direction: row;
     margin: 0 !important;
+
 }
 #clickable-images img{
-    width: 100%;
+    width: 90%;
     height: 50px;
+    outline: 1px solid rgba(0, 0, 0, 0.329);
+    border-radius: 10px;
+}
+
+.btn-danger{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* thin right section  */
+#mini-container{
+    background-color: tomato;
+    height: 115vh;
+    margin: 10px;
+    border-radius: 10px;
 }

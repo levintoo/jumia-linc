@@ -12,6 +12,7 @@ const obj1 ={
     product1price: 3000,
     product1image: "images/p1/1.jpg",
     product1oldprice: 4500,
+    id: 001,
     
 }
 document.getElementById("product1Image").src=obj1.product1image;
@@ -25,6 +26,7 @@ const obj2 ={
     product2price: 12000,
     product2image: "images/tv1/1.jpg",
     product2oldprice: 1500,
+    id: 002,
 }
 document.getElementById("product2Image").src=obj2.product2image;
   document.getElementById("product2Name").innerHTML=obj2.product2name;
@@ -37,6 +39,7 @@ document.getElementById("product2Image").src=obj2.product2image;
     product3price: 2000,
     product3image: "images/cloth1/1.jpg",
     product3oldprice: 8500,
+    id: 003,
 }
 document.getElementById("product3Image").src=obj3.product3image;
   document.getElementById("product3Name").innerHTML=obj3.product3name;
@@ -51,6 +54,7 @@ document.getElementById("product3Image").src=obj3.product3image;
     product4price: 249000 ,
     product4image: "images/mac1/1.jpg",
     product4oldprice: 249001,
+    id: 004,
 }
 document.getElementById("product4Image").src=obj4.product4image;
   document.getElementById("product4Name").innerHTML=obj4.product4name;
@@ -58,6 +62,19 @@ document.getElementById("product4Image").src=obj4.product4image;
   document.getElementById("product4oldprice").innerHTML=obj4.product4oldprice;
 
 
+
+  document.getElementById("product1").onclick=function(){
+    location.href = "product-1.html" + "?" + obj1.id;
+  };
+  document.getElementById("product2").onclick=function(){
+    location.href = "product-1.html" + "?" + obj2.id;
+  };
+  document.getElementById("product3").onclick=function(){
+    location.href = "product-1.html" + "?" + obj3.id;
+  };
+  document.getElementById("product4").onclick=function(){
+    location.href = "product-1.html" + "?" + obj4.id;
+  };
 
 
 
