@@ -96,27 +96,28 @@ switch(ids){
      
      const towns = document.getElementById("city").value;
      const quantity = document.getElementById("quantity-input").value;
+     const price = document.getElementById("productPrice").value;
      
     document.getElementById("quantity-input").onchange = function func(){
      
-        switch(towns) {
-        case "Nairobi":
-            
-          break;
+        switch(towns.value) {
+            case Nairobi:
+            var deliveryfee =100;
+            break;
         case "Nakuru":
-          // code block
+            var deliveryfee =500;
           break;
         case "Eldoret":
-            //
+            var deliveryfee =600;
             break;
         case "Kisumu":
-            //
+            var deliveryfee =800;
                 break;
         case "Mombasa":
-            //
+            var deliveryfee =900;
                 break;
         default:
-          // code block
+            var deliveryfee =5000;
       }
     }
 
