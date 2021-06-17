@@ -91,7 +91,34 @@ switch(ids){
 
      };
 
+// beginning of calc
 
+     
+     const towns = document.getElementById("city").value;
+     const quantity = document.getElementById("quantity-input").value;
+     
+    document.getElementById("quantity-input").onchange = function func(){
+     
+        switch(towns) {
+        case "Nairobi":
+            
+          break;
+        case "Nakuru":
+          // code block
+          break;
+        case "Eldoret":
+            //
+            break;
+        case "Kisumu":
+            //
+                break;
+        case "Mombasa":
+            //
+                break;
+        default:
+          // code block
+      }
+    }
 
 
  
