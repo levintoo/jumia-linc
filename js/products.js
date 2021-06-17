@@ -29,3 +29,29 @@ const obj4 ={
     product4oldprice: 249001,
     id: 004,
 }
+
+let ids = decodeURIComponent(window.location.search);
+ ids = ids.substring(1);
+ console.log(ids);
+
+
+
+
+// switch(ids){
+//     case 1:
+       
+//         document.getElementById("productImage").src=obj1.product1image;
+//         document.getElementById("productName").innerHTML=obj1.product1name;
+//       break;
+//     case 2:
+//       // code block
+//       break;
+//       case 3:
+//       // code block
+//       break;
+//       case 4:
+//       // code block
+//       break;
+//   }
+
+ 
