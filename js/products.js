@@ -34,24 +34,47 @@ let ids = decodeURIComponent(window.location.search);
  ids = ids.substring(1);
  console.log(ids);
 
-
-
-
-// switch(ids){
-//     case 1:
-       
-//         document.getElementById("productImage").src=obj1.product1image;
+//  if (ids === 1) {
+//            document.getElementById("productImage").src=obj1.product1image;
 //         document.getElementById("productName").innerHTML=obj1.product1name;
-//       break;
-//     case 2:
-//       // code block
-//       break;
-//       case 3:
-//       // code block
-//       break;
-//       case 4:
-//       // code block
-//       break;
-//   }
+
+// } else if (ids === 2) {
+   
+// } else if (ids === 3) {
+    
+// } else if (ids === 4) {
+    
+// } else {
+
+// }
+
+
+
+switch(ids){
+    case  "1":
+        document.getElementById("productImage").src=obj1.product1image;
+        document.getElementById("productName").innerHTML=obj1.product1name;
+        document.getElementById("productPrice").innerHTML=obj1.product1price;
+        document.getElementById("productoldprice").innerHTML=obj1.product1oldprice;
+      break;
+    case "2":
+        document.getElementById("productImage").src=obj2.product2image;
+        document.getElementById("productName").innerHTML=obj2.product2name;
+        document.getElementById("productPrice").innerHTML=obj2.product2price;
+        document.getElementById("productoldprice").innerHTML=obj2.product2oldprice;
+      break;
+      case "3":
+        document.getElementById("productImage").src=obj3.product3image;
+        document.getElementById("productName").innerHTML=obj3.product3name;
+        document.getElementById("productPrice").innerHTML=obj3.product3price;
+        document.getElementById("productoldprice").innerHTML=obj3.product3oldprice;
+      break;
+      case "4":
+        document.getElementById("productImage").src=obj4.product4image;
+        document.getElementById("productName").innerHTML=obj4.product4name;
+        document.getElementById("productPrice").innerHTML=obj4.product4price;
+        document.getElementById("productoldprice").innerHTML=obj4.product4oldprice;
+      break;
+  }
 
  
