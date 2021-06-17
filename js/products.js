@@ -56,6 +56,7 @@ switch(ids){
         document.getElementById("productName").innerHTML=obj1.product1name;
         document.getElementById("productPrice").innerHTML=obj1.product1price;
         document.getElementById("productoldprice").innerHTML=obj1.product1oldprice;
+        
       break;
     case "2":
         document.getElementById("productImage").src=obj2.product2image;
@@ -99,19 +100,18 @@ switch(ids){
      
 const towns = document.getElementById("city");
 const quantity = document.getElementById("quantity-input").value;
-const price = document.getElementById("productPrice").value;
+const price = document.getElementById("productPriceinput");
 
 
     document.getElementById("quantity-input").onchange = function func(){
        
-const town=towns.value
+const town=towns.value;
+
+
 
         switch(town) {
             case "Nairobi":
             var deliveryfee = 100;
-
-
-            
             var productfee = price*quantity;
             var vat =productfee*0.14;
             var totalfee=deliveryfee+productfee+vat;
