@@ -32,7 +32,7 @@ const obj4 ={
 
 let ids = decodeURIComponent(window.location.search);
  ids = ids.substring(1);
- console.log(ids);
+ 
 
 //  if (ids === 1) {
 //            document.getElementById("productImage").src=obj1.product1image;
@@ -94,31 +94,66 @@ switch(ids){
 // beginning of calc
 
      
-     const towns = document.getElementById("city").value;
-     const quantity = document.getElementById("quantity-input").value;
-     const price = document.getElementById("productPrice").value;
+
+
      
+const towns = document.getElementById("city");
+const quantity = document.getElementById("quantity-input").value;
+const price = document.getElementById("productPrice").value;
+
+
     document.getElementById("quantity-input").onchange = function func(){
-     
-        switch(towns.value) {
-            case Nairobi:
-            var deliveryfee =100;
+       
+const town=towns.value
+
+        switch(town) {
+            case "Nairobi":
+            var deliveryfee = 100;
+
+
+            
+            var productfee = price*quantity;
+            var vat =productfee*0.14;
+            var totalfee=deliveryfee+productfee+vat;
+
+           
             break;
+            
         case "Nakuru":
             var deliveryfee =500;
+            var productfee = price*quantity;
+            var vat =productfee*0.14;
+            var totalfee=deliveryfee+productfee+vat;
+           
           break;
         case "Eldoret":
             var deliveryfee =600;
+            var productfee = price*quantity;
+            var vat =productfee*0.14;
+            var totalfee=deliveryfee+productfee+vat;
+           
             break;
         case "Kisumu":
             var deliveryfee =800;
+            var productfee = price*quantity;
+            var vat =productfee*0.14;
+            var totalfee=deliveryfee+productfee+vat;
+           
                 break;
         case "Mombasa":
             var deliveryfee =900;
+            var productfee = price*quantity;
+            var vat =productfee*0.14;
+            var totalfee=deliveryfee+productfee+vat;
+           
                 break;
-        default:
-            var deliveryfee =5000;
+
       }
+      document.getElementById("total-fee").innerHTML = totalfee;
+      document.getElementById("product-fee").innerHTML = productfee;
+      document.getElementById("delivery-fee").innerHTML = deliveryfee;
+      document.getElementById("vat-fee").innerHTML = vat;
+
     }
 
 
