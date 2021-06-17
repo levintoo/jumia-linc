@@ -77,4 +77,21 @@ switch(ids){
       break;
   }
 
+
+     document.getElementById("order-button").onclick = function func(){
+        
+        document.getElementById("main-one").style.display = "none";
+        document.getElementById("main-two").style.display = "block";
+
+     };
+     document.getElementById("view-product").onclick = function func(){
+        
+        document.getElementById("main-one").style.display = "block";
+        document.getElementById("main-two").style.display = "none";
+
+     };
+
+
+
+
  

@@ -149,7 +149,7 @@ body{
 
 #main-detail{
     display: flex;
-    flex-direction: row;
+    flex-direction: row !important;
     background-color: rgb(255, 255, 255);
     margin: 10px;
     border-radius: 10px 10px 10px 10px;
@@ -206,8 +206,8 @@ body{
 
 /* the calculations tab */
 #main-two{
-    display: block;
+    display: none;
 }
 #main-one{
-    display: none;
+    display: block;
 }

@@ -95,7 +95,7 @@
             
             <p>+ shipping from KSh 88 to CBD - UON/Globe/Koja/River Road</p>
             <div class="d-grid gap-2">
-              <button class="btn btn-danger" type="button">Order Now</button>
+              <button class="btn btn-danger" id="order-button" type="button">Order Now</button>
             </div>
             <hr>
             <h4>Promotions</h4>
@@ -103,50 +103,30 @@
                <p>Lorem ipsum blah blah blah...</p>
         </div>
     
-    
-   </div>
-   <div class="col-4" id="mini-container">
+        <div class="col-4" id="mini-container">
 
+        </div>
    </div>
+
 </div>
 <div class="container" id="main-two">
   <div class="col-8" id="main-detail">
-    <div class="col-4" id="picture-detail">
+     <div class="col-4" id="picture-detail">
+      <button class="btn" id="view-product" type="button">View Product</button>
+      
+      
+      <p>Delivery Town</p>
+      <select name="" id="city">
+        <option value="Nairobi">Nairobi</option>
+        <option value="Nakuru">Nakuru</option>
+        <option value="Eldoret">Eldoret</option>
+        <option value="Kisumu">Kisumu</option>
+        <option value="Mombasa">Mombasa</option>
+      </select>
+      <p>Quantity</p>
+      <input type="number" name="" id="quantity-input" placeholder="Input quantity">
 
-
-         
-<div class="container mt-5 form-control ">
-  <select class="mt-3 " name=""  id="towns">
-      <option></option>
-      <option value="Nairobi">Nairobi</option>
-      <option value="Detroit">Detroit</option>
-      <option value="Fiji">Fiji</option>
-  </select>
-
-
-  <input type="number" name="quantity" placeholder="1" id="quantity">
-
-
-
-  <select name="" class="mt-3" id="products">
-      <option ></option>
-      <option value="Iphone">Iphone</option>
-      <option value="Chromebook">Chromebook</option>
-      <option value="DellInspiron">DellInspiron</option>
-  </select>
-
-
-
-  <!-- <button class="btn btn-primary" id="submit" >Submit</button> -->
-
-
-  <p  class="mt-3">Total fee <span id="totalfee">...</span></p>
-  <p >Delivery cost is <span id="deliverycost">...</span></p>
-  <p>Product cost is<span id="productcost">...</span></p>
-</div>
-
-
-    </div>
+     </div>
     
   </div>
 
