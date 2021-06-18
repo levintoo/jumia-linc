@@ -91,3 +91,6 @@ switch(ids){
         document.getElementById("main-two").style.display = "none";
 
      };
+
+// beginning of calc
+ 
