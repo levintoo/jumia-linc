@@ -97,24 +97,28 @@ switch(ids){
      
 
 
-     
+
+
+
+             
 const towns = document.getElementById("city");
 const quantity = document.getElementById("quantity-input").value;
-const price = document.getElementById("productPriceinput");
 
+
+console.log(quantity);
 
     document.getElementById("quantity-input").onchange = function func(){
+
        
-const town=towns.value;
+        const price = parseInt(500); 
 
-
-
-        switch(town) {
+        switch(towns) {
             case "Nairobi":
             var deliveryfee = 100;
             var productfee = price*quantity;
             var vat =productfee*0.14;
             var totalfee=deliveryfee+productfee+vat;
+          
 
            
             break;
