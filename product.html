@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+   <title>Document</title>
+    
+</head>
+<body>
+    <!-- As a link -->
+<nav class="navbar navbar-light bg-light">
+    
+      <a class="navbar-brand disabled" href="#">JUMIA</a>
+    
+  </nav>
+  
+  <!-- As a heading -->
+  <nav class="navbar mt-4 sticky-top bg-light">
+    <form class="d-flex  navbar-items">
+        <img src="images/logo-jumia.png" class="logo">
+        <input class=" search-bar form-control me-2" type="search" placeholder="&#128269; Search products, brands and categories" aria-label="Search">
+        <button class="btn btn-danger me-2" type="submit">Search</button>
+        <a class="navbar-brand " href="#">
+            <svg class=" m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+          </svg>Log In<svg class="down m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+          </svg></a>
+        <a class="navbar-brand " href="#"><svg class=" m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+          </svg>Help<svg class="down m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+          </svg></a>
+        <a class="navbar-brand" href="#"><svg  class=" m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>Cart<svg class="down  m-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+          </svg></a>
+    </form>
+
+  </nav>
+
+
+<div class="container" id="main-one">
+   <div class="col-8" id="main-detail">
+        <div class="col-4" id="picture-detail">
+             <img id="productImage">
+
+               <div id="clickable-images">
+                <div class="">
+                    <img src="images/tv1/1.jpg" alt="">
+                </div>
+                <div class="">
+                    <img src="images/tv1/2.jpg" alt="">
+                </div>
+                <div class="">
+                    <img src="images/tv1/3.jpg" alt="">
+                </div>
+                <div class="">
+                    <img src="images/tv1/4.jpg" alt="">
+                </div>
+               </div>
+               <hr>
+               <p>Share this product</p>
+               <p>Lorem ipsum blah blah blah...</p>
+        </div>
+        <div class="col-8">
+            <button class="btn btn-danger">Official store</button>
+            <h4 id="productName"></h4>  
+            <p>Brand : <a href="">Vision Plus | Similar products from Vision Plus</a></p>  
+            <div>
+                <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                  </svg> ( 35 Ratings)</p>
+            </div>
+            <hr>
+            <h3>Ksh <p><span id="productPrice"></span></p></h3>
+            <h6><s> KSh <span id="productoldprice"></span></s></h6>
+            
+            <p>+ shipping from KSh 88 to CBD - UON/Globe/Koja/River Road</p>
+            <div class="d-grid gap-2">
+              <button class="btn btn-danger" id="order-button" type="button">Order Now</button>
+            </div>
+            <hr>
+            <h4>Promotions</h4>
+            <p>Share this product</p>
+               <p>Lorem ipsum blah blah blah...</p>
+        </div>
+    
+        <div class="col-4" id="mini-container">
+
+        </div>
+   </div>
+
+</div>
+<div class="container" id="main-two">
+  <div class="col-8" id="main-detail">
+     <div class="col-4" id="picture-detail">
+      <button class="btn" id="view-product" type="button">View Product</button>
+      
+      
+      <p>Delivery Town
+      <select name="" id="city">
+        <option value="Nairobi">Nairobi</option>
+        <option value="Nakuru">Nakuru</option>
+        <option value="Eldoret">Eldoret</option>
+        <option value="Kisumu">Kisumu</option>
+        <option value="Mombasa">Mombasa</option>
+      </select>
+    </p>
+      <p>Quantity
+      <select name="" id="quantity-input" >
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      
+    </p>
+   
+    <h4>Total fee: <span id="total-fee"></span></h4>
+    <h5>Product fee: <span id="product-fee"></span></h5>
+    <h5>Delivery fee: <span id="delivery-fee"></span></h5>
+    <h6>VAT: <span id="vat-fee"></span></h6>
+     </div>
+    
+  </div>
+
+</div>
+
+
+
+<nav class="navbar sticky-bottom navbar-light bg-light">
+        
+    <a class="navbar-brand disabled" href="#">JUMIA</a>
+    
+  </nav>
+
+    <script src="js/products.js"></script>
+</body>
+</html>
